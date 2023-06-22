@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling Selector</title>
+    <style>
+        div~p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>General Sibling Selector</h2>
+    <p>The general sibling selector (~) selects all elements that
+        are next siblings of a specified element.</p>
+    <p>Paragraph 1</p>
+    <div>
+        <p>Paragraph 2</p>
+    </div>
+    <p>Paragraph 3</p>
+    <code>HTML+CSS</code>
+    <p>Paragraph 4</p>
+    <p>Paragraph 5</p>
+    <h3>heading here</h3>
+</body>
+<!--
+    element element -> div p
+    element > element -> div > p
+    element + element -> div + p
+    element ~ element -> div ~ p
+-->
+</html>

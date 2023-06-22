@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selector</title>
+    <style>
+        div+p{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>Adjacent Sibling Selector</h2>
+    <p>
+        The + selector is used to select
+         an element that is directly after another specific element.
+    </p>
+    <div>
+        <p>Paragraph 1 inside div</p>
+        <p>Paragraph 2 inside div</p>
+    </div>
+    <p>Paragraph 3 after div</p>
+    <p>Paragraph 4 after div</p>
+    <div>
+        <p>Paragraph 5 inside div</p>
+        <p>Paragraph 6 inside div</p>
+    </div>
+    <p>Paragraph 7 after div</p>
+    <p>Paragraph 8 after div</p>
+</body>
+</html>
