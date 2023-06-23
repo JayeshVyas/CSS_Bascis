@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow, green);
+}
+
+#grad2 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+#grad3 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red 10%, green 85%, blue 90%);
+}
+</style>
+</head>
+<body>
+
+<h1>Linear Gradients - Multiple Color Stops</h1>
+<p><strong>Note:</strong> Color stops are spaced evenly when no percents are specified.</p>
+
+<h2>3 Color Stops (evenly spaced):</h2>
+<div id="grad1"></div>
+
+<h2>7 Color Stops (evenly spaced):</h2>
+<div id="grad2"></div>
+
+<h2>3 Color Stops (not evenly spaced):</h2>
+<div id="grad3"></div>
+
+</body>
+</html>
+
+
