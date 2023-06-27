@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex Box</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+        .flex-container{
+            display: flex;
+            font-size: 30px;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        .flex-left{
+            background-color: #f1f1f1;
+            padding: 10px;
+             flex: 50%;
+
+        }
+        .flex-right{
+            background-color: burlywood;
+            padding: 10px;
+             flex: 50%;
+
+        }
+        @media (max-width: 800px) {
+           .flex-left,.flex-right {
+               flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Responsive Flex Box</h2>
+    <div class="flex-container">
+        <div class="flex-left">Div Left</div>
+        <div class="flex-right">Div Right</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Items</title>
+    <style>
+        .flex-container{
+            display: flex;
+            align-items: stretch;
+            background-color: gray;
+        }
+        .flex-container>div{
+            background-color: burlywood;
+            color: white;
+            width: 100px;
+            margin: 12px;
+            font-size: 25px;
+            text-align: center;
+            line-height: 75px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Flex-Items</h2>
+    <div class="flex-container">
+        <div style="order: 3;">DIV I</div>
+        <div style="order: 4;">DIV II</div>
+        <div style="order: 2;">DIV III</div>
+        <div style="order: 1;">DIV IV</div>
+    </div>
+
+    <div class="flex-container">
+        <div style="flex-grow: 1;">DIV I</div>
+        <div style="flex-grow: 1;">DIV II</div>
+        <div style="flex-grow: 8;">DIV III</div>
+    </div>
+
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-basis: 200px;">3</div>
+        <div>4</div>
+        <div style="align-self: center;">5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    
+    
+</body>
+</html>

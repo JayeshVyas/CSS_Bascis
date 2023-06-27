@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations in CSS</title>
+    <style>
+        img{
+            -webkit-box-reflect: below;
+        }
+        /* div{
+            width: 150px;
+            height: 80px;
+            background-color: red;
+            position: relative;
+            font-weight: bold;
+            animation:  demo 5s infinite;
+           
+        }
+        #div1{
+            animation-timing-function: linear;
+        }
+        #div2{
+            animation-timing-function: ease;
+        }
+        #div3{
+            animation-timing-function: ease-in;
+        }
+        #div4{
+            animation-timing-function:  ease-out;
+        }
+        #div5{
+            animation-timing-function: ease-in-out;
+        } */
+
+        /* @keyframes demo {
+            from{background-color: green;}
+            to{
+                background-color: yellow;
+            }
+        } */
+        /* @keyframes demo {
+            0%{background-color: green;}
+            25%{
+                background-color: yellow;
+            }
+            75%{
+                background-color: red;
+            }
+            100%{
+                background-color: yellow;
+            }
+        } */
+        /* @keyframes demo {
+            0%{
+                background-color: green; left: 0px;top: 0px;
+            }
+            25%{
+                background-color: yellow; left: 200px;top: 0px;
+            }
+            50%{
+                background-color: blue; left: 200px;top: 200px;
+            }
+            75%{
+                background-color: red; left: 0px;top: 200px;
+            }
+            100%{
+                background-color: green; left: 0px;top: 0px;
+            }
+        } */
+        @keyframes demo {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+    </style>
+</head>
+<body>
+    <h2>Animations in CSS</h2>
+    <!-- <div></div> -->
+    <div id="div1">Linear</div>
+    <div id="div2">ease</div>
+    <div id="div3">ease-in</div>
+    <div id="div4">ease-out</div>
+    <div id="div5">ease-in-out</div>
+    <img src="/emotional-cry.gif">
+</body>
+</html>
