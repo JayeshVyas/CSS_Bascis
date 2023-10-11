@@ -1,0 +1,26 @@
+.button{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 8px 12px 2px 4px;
+    cursor: pointer;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 20%;
+    
+}
+.button2{
+    background-color: green;
+    text-decoration: solid;
+
+}
+.button3{
+    background-color: red;
+}
+.button4{
+    background-color: aqua;
+}
+.button5{
+    background-color: brown;
+}
