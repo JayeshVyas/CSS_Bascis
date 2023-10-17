@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class / Element</title>
+    <style>
+        .pseudo{
+            background-color: green;
+            font-size: 50px;
+            text-align: center;
+            margin: auto;
+            height: 150px;
+            font-weight: bold;
+            width: 500px;
+        }
+        .pseudo1{
+            background-color: yellow;
+            font-size: 50px;
+            text-align: center;
+            margin: auto;
+            height: 150px;
+            font-weight: bold;
+            width: 500px;
+        }
+        .pseudo:hover{
+            background-color: brown;
+        }
+        .pseudo1:active{
+            background-color: brown;
+        }
+
+        form{
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            margin: auto;
+        }
+
+        label{
+            width: 40%;
+            text-align: center;
+        }
+        input{
+            background-color: aqua;
+            float: right;
+        }
+        input:focus{
+            background-color: green;
+        }
+
+        p::first-line{
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body style="text-align: center;">
+    <h2>
+        Pseudo Class / Elements in CSS/CSS3
+    </h2>
+    <h3>Pseudo Class hover example</h3>
+    <div class="pseudo">
+        Edyoda Classes
+        Hover me to change my color.
+    </div>
+<BR><BR>
+    <h3>Pseudo class active example</h3>
+    <div class="pseudo1">
+        Edyoda Classes
+        Hover me to change my color.
+    </div>
+    <BR><BR>
+
+    <h3>Pseudo class exmaple for input text</h3>
+    <form>
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Enter your username">
+        <BR><BR>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter Your Passworfd">
+    </form>
+
+    <p>
+My Name is Jayesh Vyas        
+I am form udaipur, Rajasthan
+I completed my Btech from RTU with 9 CGPA
+My Name is Jayesh Vyas        
+I am form udaipur, Rajasthan
+I completed my Btech from RTU with 9 CGPA
+My Name is Jayesh Vyas        
+I am form udaipur, Rajasthan
+I completed my Btech from RTU with 9 CGPA
+My Name is Jayesh Vyas        
+I am form udaipur, Rajasthan
+I completed my Btech from RTU with 9 CGPA
+My Name is Jayesh Vyas        
+I am form udaipur, Rajasthan
+I completed my Btech from RTU with 9 CGPA
+    </p>
+</body>
+</html>

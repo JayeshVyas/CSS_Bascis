@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS/CSS3</title>
+    <style>
+        #main{
+            animation-name: color;
+            animation-duration: 30s;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        #edyoda{
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: green;
+            padding-bottom: 6px;
+        }
+
+        #def{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        @keyframes color {
+            
+            0%{
+                background-color: blue;
+            }
+            50%{
+                background-color: red;
+            }
+            100%{
+                background-color: orange;
+            }
+        }
+
+        #main2{
+            animation-name: para;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+
+        }
+        #edyoda2{
+            font-size: 35px;
+            text-align: center;
+            font-weight: bold;
+            color: green;
+            padding-bottom: 10px;
+        }
+        #def2{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        @keyframes para {
+            from {
+                margin-top: 350px;
+            }
+            to{
+                margin-top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Animation in CSS/CSS3
+    </h2>
+    <div id="main">
+        <div id="edyoda">
+            Edyoda Classes
+        </div>
+        <div id="def">
+            Edyoda Classes for HTML, CSS & JavaScript.
+        </div>
+    </div>
+
+    <div id="main2">
+        <div id="edyoda2">
+            Edyoda Classes
+        </div>
+        <div id="def2">
+            Edyoda Classes for HTML, CSS & JavaScript.
+        </div>
+    </div>
+</body>
+</html>
